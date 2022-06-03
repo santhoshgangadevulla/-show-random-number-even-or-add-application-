@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  border-radius: 20px;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.result {
+  font-size: 30px;
+  color: #1e2936;
+  font-weight: 500;
+}
+
+.button {
+  background-color: #ffffff;
+  height: 45px;
+  width: 120px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #1e293b;
+  font-size: 15px;
+  border-color: #ffffff;
+}
+
+.instruction {
+  font-size: 15px;
+  color: #334155;
+  font-weight: 500;
+}
